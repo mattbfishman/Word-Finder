@@ -1,0 +1,12 @@
+
+public class TestWordFinder
+{
+	public static void main (String[] args)
+	{
+		WordFinder wordFinder = new WordFinder();
+
+		wordFinder.readWordFinder();
+		//maze.goNorth();
+		wordFinder.printWordFinder();
+	}
+}
